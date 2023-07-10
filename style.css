@@ -22,14 +22,14 @@ body {
   padding: 15px 35px;
 }
 
-.section-title{
+.section-title {
   color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
 }
 
-.section-description{
+.section-description {
   color: #757575;
   text-align: center;
   font-size: 18px;
@@ -60,7 +60,7 @@ nav a {
 /* header related styles  */
 .header {
   background-color: #fff8f3;
-  background-image: url('/img/header_bg.png');
+  background-image: url("/img/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -72,78 +72,100 @@ nav a {
   justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
   max-width: 500px;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
   width: 500px;
 }
 
-.banner-greeting{
-font-size: 45px;
-color: #474747;
-margin-bottom: 0;
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
 }
-.banner-title{
-font-size: 85px;
-font-weight: 700;
-margin-top: 5px;
-margin-bottom: 20px;
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 /* main start  */
 
- main{
+main {
   max-width: 1140px;
   margin: 0 auto;
- }
+}
 
- main scection{
+main scection {
   margin-top: 130px;
- }
+}
 
 /* about start  */
-.about{
+.about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
   text-align: center;
 }
-.about-info-container{
-
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
 
-.about-info{
+.about-info {
   text-align: center;
 }
 
 /* skill related style  */
 
-#what-i-do{
+#what-i-do {
   padding: 30px 150px;
 }
 
-.skills-container{
+.skills-container {
   display: flex;
   gap: 24px;
 }
 
-.skill{
+.skill {
   padding: 30px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 6px 50px 0 rgb(107, 102, 102);
-  
 }
-.skill-description{
+.skill-description {
   color: #757575;
 }
-.resume-colume-title{
+/* reaume section style  */
+.resume-colume-title {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-family: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.resume-item-institute,
+.resume-item-description {
+  color: #757575;
+}
+
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
 }
